@@ -1,0 +1,62 @@
+body {
+  background-color: #1d1d1e;
+}
+h1 {
+  margin: 20px;
+  color: white;
+  font-size: 24pt;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+hr {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.conversor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+h3 {
+  color: white;
+}
+.conversor .card {
+  background-color: gray;
+  padding: 20px;
+}
+button {
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.grafico {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 420px;
+  height: 300px;
+}
+p {
+  margin: 20px;
+  color: white;
+  font: bold;
+}
+@media (max-width: 576px) {
+  body {
+    margin: 10px;
+  }
+  .grafico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+  }
+}
